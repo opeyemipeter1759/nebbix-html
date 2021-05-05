@@ -12,6 +12,9 @@
   height: 60px;
   /* margin-right: -21px; */
 }
+.navbar-brand-img {
+  height: 5%;
+}
 .bg-light {
   background: #fff !important;
 }
