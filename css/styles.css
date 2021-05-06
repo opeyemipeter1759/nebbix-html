@@ -16,7 +16,7 @@ div.nav-bar {
   justify-content: space-between;
   padding: 1rem 6rem;
 
-  width: 100vw;
+  width: 95vw;
   background: #fff;
 }
 
@@ -63,24 +63,12 @@ ul li {
   font-size: 1.1rem;
 }
 
-ul li a {
-  text-decoration: none;
-  color: #88949b;
-  padding: 0.5vw;
-}
-
-ul li a:hover {
-  color: #304353;
-  background: #fff;
-  padding: 0.5rem;
-}
-
 .hero {
   margin-top: 198px;
   padding: 1rem 6rem;
-  width: 100vw;
-  margin-right: 0;
-  margin-left: 0;
+  width: 95vw;
+  margin-right: auto;
+  margin-left: auto;
 }
 .btn-primary {
   background: #fcf9f2;
@@ -100,6 +88,9 @@ ul li a:hover {
   border: none;
 }
 
+.hero-img {
+  height: 499px;
+}
 @media screen and (max-width: 768px) {
   .nav-bar {
     display: flex;
