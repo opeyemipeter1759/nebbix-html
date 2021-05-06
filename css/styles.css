@@ -40,6 +40,24 @@ a > img.logo {
   border-radius: 5px;
   /* margin-right: 21px; */
 }
+.btn-outline-success3:hover {
+  color: #fff;
+  background: #0066f6;
+  box-shadow: 0px 8px 12px rgba(80, 92, 189, 0.12);
+  border-radius: 5px;
+  width: 203px;
+  height: 60px;
+  /* margin-right: 21px; */
+}
+.btn-outline-success3 {
+  color: #fff;
+  background: #0066f6;
+  box-shadow: 0px 8px 12px rgba(80, 92, 189, 0.12);
+  border-radius: 5px;
+  width: 203px;
+  height: 60px;
+  /* margin-right: 21px; */
+}
 ul.nav-links {
   display: flex;
   margin: 0;
