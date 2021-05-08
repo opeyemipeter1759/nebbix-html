@@ -60,6 +60,7 @@ div.nav-bar {
   /* margin-right: 21px; */
 }
 .btn-outline-success3 {
+  margin-top: 40px;
   color: #fff;
   background: #101924;
   box-shadow: 0px 8px 12px rgba(80, 92, 189, 0.12);
@@ -92,6 +93,9 @@ ul li {
 }
 
 .hero {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   margin-top: 120px;
   padding: 1rem 6rem;
   width: 97vw;
@@ -120,7 +124,7 @@ ul li {
 div.hero-details > h1 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 47px;
+  font-size: 57px;
   line-height: 70px;
 }
 div.hero-details > p {
@@ -130,6 +134,7 @@ div.hero-details > p {
   line-height: 2rem;
   padding-top: 15px;
   padding-bottom: 12px;
+  letter-spacing: 2px;
 }
 .footer-details {
   display: flex;
@@ -150,91 +155,56 @@ div.hero-details > p {
 .hero-image {
   content: "";
   display: block;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   background: linear-gradient(153deg, rgb(240, 240, 240) 0px, rgb(240, 240, 240) 1%) 0px 0px;
   top: -20px;
-  /* right: 5rem;
-   */
+  /* margin-left: 10px; */
 }
 .hero-img {
-  /* width: 250px; */
-  height: 450px;
+  width: 450px;
+  height: 650px;
   transform: rotate(10deg);
-  margin-top: -60px;
-  margin-left: 50px;
+  margin-top: -70px;
+  margin-left: 5px;
 }
 .footer {
+  margin-top: 100px;
+  margin-bottom: 20px;
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
 }
 .footer-hr {
+  margin-bottom: 20px;
   border-top: 4px solid #f0efeb;
 }
 @media screen and (max-width: 768px) {
-  .nav-bar {
+  .hero {
+    flex-direction: column;
+  }
+  .badge {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    width: 100vw;
+    justify-content: center;
   }
-  .nav-bar > .logo {
-    font-size: 1.2rem;
-  }
-  ul.nav-links {
-    flex-direction: column;
-  }
-  div.toggle {
-    display: block;
-  }
-  .active {
-    display: block;
-  }
-  ul {
-    display: none;
-  }
-  ul li {
-    margin: 0;
-    font-size: 1rem;
-    display: block;
-  }
-  ul li button {
-    display: block;
-    padding-top: 20px;
-  }
-  div.hero-content-heading h3 {
-    font-size: 1.6rem;
-    margin: 10px;
-  }
-  div.hero-content-heading p {
+  div.hero-details > h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
     text-align: center;
   }
-  div.hero-background-pos {
-    display: none;
-  }
-  div.background {
-    padding: 10rem 30px;
-    width: 300px;
-    height: 250px;
-  }
-  div.background h4 {
-    margin-top: -11rem;
-  }
-  div.background p {
-    text-align: left;
-  }
-  div.snapshot-team h2 {
-    font-size: medium;
-  }
-  div.snapshot-team p {
-    font-size: small;
+  div.hero-details > p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
     text-align: center;
-  }
-  div.snapshot-box-content {
-    flex-direction: column;
   }
 }
