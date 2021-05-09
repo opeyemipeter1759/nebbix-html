@@ -37,6 +37,14 @@ div.nav-bar {
   height: 60px;
   border-radius: 5px;
 }
+.btn-outline-success1:hover {
+  color: #fff;
+  background: #101924;
+  width: 143px;
+  height: 60px;
+  border-radius: 5px;
+}
+
 .btn-outline-success2 {
   color: #fff;
   background: #101924;
@@ -45,6 +53,15 @@ div.nav-bar {
   border-radius: 5px;
   /* margin-right: 21px; */
 }
+.btn-outline-success2:hover {
+  background: #fff;
+  color: #101924;
+  border: 2px solid #101924;
+  width: 143px;
+  height: 60px;
+  border-radius: 5px;
+}
+
 .btn-outline-success3:hover {
   color: #fff;
   background: #101924;
@@ -159,7 +176,7 @@ div.hero-details > p {
   /* z-index: -1; */
   background: linear-gradient(153deg, rgb(240, 240, 240) 0px, rgb(240, 240, 240) 1%) 0px 0px;
   top: -20px;
-  left: -40px;
+  left: -55px;
   margin-left: 100px;
 }
 .hero-img {
@@ -190,6 +207,7 @@ div.hero-details > p {
   .badge {
     display: flex;
     justify-content: center;
+    margin-top: -45px;
   }
   div.hero-details > h1 {
     font-weight: 600;
@@ -225,11 +243,11 @@ div.hero-details > p {
     top: 90px;
   }
   .hero-img {
-    width: 300px;
-    height: 490px;
+    width: 200px;
+    height: 350px;
     transform: rotate(0deg);
-    margin-top: -60px;
-    margin-left: 18px;
+    margin-top: -30px;
+    margin-left: 40px;
   }
   .footer {
     margin-top: 130px;
@@ -242,5 +260,8 @@ div.hero-details > p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .sIcons {
+    margin-top: 15px;
   }
 }
