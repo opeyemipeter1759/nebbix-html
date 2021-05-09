@@ -91,10 +91,11 @@ div.toggle {
   width: 100%;
   padding: 10px 20px;
   text-align: right;
+  cursor: pointer;
   display: none;
 }
 div.toggle i {
-  color: white;
+  color: black;
   font-size: 30px;
 }
 ul li {
@@ -200,6 +201,18 @@ div.hero-details > p {
 @media screen and (max-width: 768px) {
   .nav-bar ul {
     display: none;
+  }
+  .logo-session a > img.logo {
+    width: 1.5rem;
+    margin-right: 3px;
+  }
+  .logo-session > h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  div.toggle {
+    display: block;
   }
   .hero {
     flex-direction: column;
