@@ -209,6 +209,7 @@ div.hero-details > p {
     display: flex;
   }
   ul.nav-links {
+    margin-top: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
