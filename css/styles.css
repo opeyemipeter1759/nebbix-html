@@ -13,6 +13,7 @@ body {
 div.nav-bar {
   padding: 1rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background: #fff;
 }
@@ -88,9 +89,10 @@ ul.nav-links {
 }
 div.toggle {
   box-sizing: border-box;
-  width: 100%;
-  padding: 10px 20px;
-  text-align: right;
+  /* width: 100%; */
+  /* padding: 10px 20px; */
+  /* text-align: right; */
+  font-size: 20px;
   cursor: pointer;
   display: none;
 }
@@ -201,14 +203,24 @@ div.hero-details > p {
 @media screen and (max-width: 768px) {
   .nav-bar ul {
     display: none;
+    width: 100%;
   }
+  .nav-bar ul.show {
+    display: flex;
+  }
+  ul.nav-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .logo-session a > img.logo {
-    width: 1.5rem;
+    width: 2rem;
     margin-right: 3px;
   }
   .logo-session > h1 {
     font-family: "Inter", sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.7rem;
     font-weight: 600;
   }
   div.toggle {
@@ -216,6 +228,16 @@ div.hero-details > p {
   }
   .hero {
     flex-direction: column;
+  }
+  .btn-outline-success1,
+  .btn-outline-success2 {
+    width: 332px;
+    margin-bottom: 20px;
+  }
+  .btn-outline-success1:hover,
+  .btn-outline-success2:hover {
+    width: 332px;
+    margin-bottom: 20px;
   }
   .badge {
     display: flex;
